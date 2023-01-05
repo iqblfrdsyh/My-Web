@@ -1,338 +1,326 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 body {
-    background-color: #F6F2FF;
-    font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
-    color: black
+  background-color: #f6f2ff;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  color: black;
 }
 
 /* All Ver */
 
 p {
-    color: rgb(167, 167, 167);
+  color: rgb(167, 167, 167);
 }
 
 .title {
-    letter-spacing: 1.8px;
+  letter-spacing: 1.8px;
 }
 
 .title span {
-    color: rgb(107, 90, 210);
+  color: rgb(107, 90, 210);
 }
 
 .info-title {
-    color: rgb(167, 167, 167);
+  color: rgb(167, 167, 167);
 }
 
 .btn {
-    border: 2px solid black;
-    background-color: transparent;
-    color: #272932;
+  border: 2px solid black;
+  background-color: transparent;
+  color: #272932;
 }
 
-
 /* End */
-
-
 
 /* navbar */
 
 .navbar {
-    background-color: #F6F2FF !important;
-    color: #272932;
+  background-color: #f6f2ff !important;
+  color: #272932;
 }
 
 .navbar-brand {
-    color: rgb(20, 18, 18) !important;
+  color: rgb(20, 18, 18) !important;
 }
 
 .nav-item a {
-    font-size: 1.1rem;
-    margin-left: 15px;
-    color: rgb(21, 20, 20) !important;
+  font-size: 1.1rem;
+  margin-left: 15px;
+  color: rgb(21, 20, 20) !important;
 }
 
 .nav-item a:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 /* End */
-
 
 /* Jumbotron */
 
 .jumbotron {
-    margin-top: 100px;
-    height: 80vh;
+  margin-top: 100px;
+  height: 80vh;
 }
 
 .jumbotron h1 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .jumbotron h4,
 .jumbotron p {
-    color: rgb(167, 167, 167);
+  color: rgb(167, 167, 167);
 }
 
 .jumbotron p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .jumbotron .btn {
-    padding: 10px 10px;
-    border-radius: 10px;
+  padding: 10px 10px;
+  border-radius: 10px;
 }
 
 .jumbotron .btn i {
-    margin-left: 7px;
+  margin-left: 7px;
 }
 
 .jumbotron .btn:hover {
-    background-color: rgb(107, 90, 210);
-    border: 1px solid #272932;
+  background-color: rgb(107, 90, 210);
+  border: 1px solid #272932;
 }
 
 .jumbotron img {
-    width: 350px;
-    margin-left: 250px;
-    margin-top: -20px;
-    border-radius: 75% 25% 45% 55% / 51% 59% 41% 49%;
+  width: 350px;
+  margin-left: 250px;
+  margin-top: -20px;
+  border-radius: 75% 25% 45% 55% / 51% 59% 41% 49%;
 }
 
 .jumbotron ul {
-    display: flex;
-    margin-left: -35px;
-    list-style: none;
-    margin-top: 90px;
+  display: flex;
+  margin-left: -35px;
+  list-style: none;
+  margin-top: 90px;
 }
 
 .jumbotron ul li {
-    margin-left: 15px;
-    font-size: 1.2rem;
+  margin-left: 15px;
+  font-size: 1.2rem;
 }
 
 /* end */
 
-
 /* About */
 .about {
-    margin-top: 100px;
-    padding: 150px 0;
+  margin-top: 100px;
+  padding: 150px 0;
 }
 
 .about .content {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .about img {
-    border: 5px solid black;
-    border-radius: 25px;
+  border: 5px solid black;
+  border-radius: 25px;
 }
 
-
 .about .project .point span {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .about .project {
-    padding: 0 50px;
+  padding: 0 50px;
 }
 
 .about .project .point p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .about .btn {
-    border: 2px solid black;
-    border-radius: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 .about .btn:hover {
-    background-color: slateblue;
-    color: #fff;
+  background-color: slateblue;
+  color: #fff;
 }
 
 .about .bi-download {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 .modal-title,
 .modal-body {
-    color: black !important;
+  color: black !important;
 }
 
 /* End */
-
 
 /* Social media */
 
 .social-media {
-    background: rgba(68, 68, 65, 0.7);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(7.5px);
-    -webkit-backdrop-filter: blur(7.5px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    max-width: 700px;
-    padding: 20px;
-    border-radius: 20px;
-    margin-top: 100px;
+  background: rgba(68, 68, 65, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  max-width: 700px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 100px;
 }
 
 .social-media ul {
-    padding-top: 10px;
-    width: 400px;
+  padding-top: 10px;
+  width: 400px;
 }
 
 .social-media ul li i {
-    color: white;
-    font-size: 30px;
+  color: white;
+  font-size: 30px;
 }
 
 .bi-instagram {
-    color: blue;
+  color: blue;
 }
 
 /* End */
 
-
-
 /* Skill */
 
 .skills {
-    margin-top: 20px;
-    padding: 150px 30px;
+  margin-top: 20px;
+  padding: 150px 30px;
 }
 
 .skills h3,
 p {
-    color: #272932;
+  color: #272932;
 }
 
 .skills .col-md-5 h5 {
-    color: black;
+  color: black;
 }
 
 .skills .content {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .skills .content-progress p {
-    margin-top: 20px;
-    margin-bottom: 7px;
+  margin-top: 20px;
+  margin-bottom: 7px;
 }
 
 .skills .progress-bar {
-    background-color: rgb(107, 90, 210);
+  background-color: rgb(107, 90, 210);
 }
 
 .accordion-item span {
-    color: rgb(107, 90, 210);
-    font-weight: bold;
+  color: rgb(107, 90, 210);
+  font-weight: bold;
 }
 
 .accordion-button {
-    color: #272932;
-    background-color: #F6F2FF;
+  color: #272932;
+  background-color: #f6f2ff;
 }
 
 .accordion-body {
-    background-color: #F6F2FF;
+  background-color: #f6f2ff;
 }
 
 .accordion-item {
-    background-color: #fffcf2;
+  background-color: #fffcf2;
 }
-
 
 /* End */
 
 /* Project*/
 .project {
-    margin-top: 50px;
-    padding: 100px 0;
+  margin-top: 50px;
+  padding: 100px 0;
 }
 
 .project .content {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .project .content img {
-    border: 5px solid black;
+  border: 5px solid black;
 }
 
 /* End */
 
 /* Achievement */
 .achievement {
-    margin-top: 175px;
-    margin-bottom: 25vh;
+  margin-top: 175px;
+  margin-bottom: 25vh;
 }
 
 .achievement .content {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 /* End */
 
 /* Footer */
 footer {
-    background-color: #272932;
-    color: #F6F2FF;
-    padding-top: 50px;
-    padding-bottom: 100px;
+  background-color: #272932;
+  color: #f6f2ff;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 footer a {
-    text-decoration: none;
-    color: white;
-    margin-right: 30px;
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
 }
 
 footer .bi-instagram,
 .bi-whatsapp,
 .bi-twitter {
-    color: white;
+  color: white;
 }
 
 footer a:hover {
-    color: rgb(211, 211, 211);
+  color: rgb(211, 211, 211);
 }
 
 /* End */
 
 /* scroll up */
 .scrollup {
-    position: fixed;
-    right: 1rem;
-    bottom: -20%;
-    background-color: rgb(107, 90, 210);
-    opacity: 0.8;
-    padding: 0 0.3rem;
-    border-radius: 0.4rem;
-    z-index: 10;
-    transition: 0.4s;
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: rgb(107, 90, 210);
+  opacity: 0.8;
+  padding: 0 0.3rem;
+  border-radius: 0.4rem;
+  z-index: 10;
+  transition: 0.4s;
 }
 
 .scrollup:hover {
-    background-color: rgb(88, 72, 173);
+  background-color: rgb(88, 72, 173);
 }
 
 .scrollup_icon {
-    font-size: 1.5rem;
-    color: #fff;
+  font-size: 1.5rem;
+  color: #fff;
 }
 
 .show-scroll {
-    bottom: 5rem;
+  bottom: 5rem;
 }
 
 /* end */
-
-
 
 /* Responsive BreakPoint */
 
@@ -344,164 +332,157 @@ footer a:hover {
     }
 } */
 
-
 /* Ver Mobile */
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .content {
+    margin-top: 100px;
+  }
 
+  .info-title {
+    margin-top: 0 !important;
+  }
 
+  .nav-item a {
+    margin: 0;
+  }
 
-    .content {
-        margin-top: 100px;
-    }
+  /* Jumbotron */
 
-    .info-title {
-        margin-top: 0 !important;
-    }
+  .jumbotron {
+    margin-top: 50px;
+    padding: 0 30px;
+  }
 
-    .nav-item a {
-        margin: 0;
-    }
+  .jumbotron h1 {
+    font-size: 36px !important;
+  }
 
-    /* Jumbotron */
+  .jumbotron h4 {
+    font-size: 20px !important;
+  }
 
-    .jumbotron {
-        margin-top: 50px;
-        padding: 0 30px;
-    }
+  .jumbotron p {
+    font-size: 1.1rem;
+  }
 
-    .jumbotron h1 {
-        font-size: 36px !important;
-    }
+  .jumbotron img {
+    display: none;
+  }
 
-    .jumbotron h4 {
-        font-size: 20px !important;
-    }
+  .jumbotron ul {
+    position: relative;
+    float: left;
+    bottom: 50px;
+    right: 20px;
+  }
 
-    .jumbotron p {
-        font-size: 1.1rem;
-    }
+  .jumbotron .medsos {
+    position: absolute;
+    float: left;
+    left: -1px;
+    margin-top: 100px;
+  }
 
-    .jumbotron img {
-        display: none;
-    }
+  /* End */
 
-    .jumbotron ul {
-        position: relative;
-        float: left;
-        bottom: 50px;
-        right: 20px;
-    }
+  /* About */
+  .about {
+    padding: 10px;
+  }
 
-    .jumbotron .medsos {
-        position: absolute;
-        float: left;
-        left: -1px;
-        margin-top: 100px;
-    }
+  .about img {
+    margin-left: 50px;
+  }
 
-    /* End */
+  .about .content {
+    padding-right: 20px;
+    margin-top: 50px;
+  }
 
-    /* About */
-    .about {
-        padding: 10px;
-    }
+  .about .project {
+    padding: 0 30px;
+  }
 
-    .about img {
-        margin-left: 50px;
-    }
+  .about p {
+    text-align: center;
+    margin-top: 50px;
+  }
 
-    .about .content {
-        padding-right: 20px;
-        margin-top: 50px;
-    }
+  .about .project .point p {
+    margin-top: 5px;
+  }
 
-    .about .project {
-        padding: 0 30px;
-    }
+  .about .btn {
+    display: flex;
+    margin: 0 auto;
+  }
 
-    .about p {
-        text-align: center;
-        margin-top: 50px;
-    }
+  /* End */
 
-    .about .project .point p {
-        margin-top: 5px;
-    }
+  /* skills */
+  .skills {
+    margin-top: 60px;
+  }
 
-    .about .btn {
-        display: flex;
-        margin: 0 auto;
-    }
+  .skills .content {
+    margin-top: 50px;
+  }
 
-    /* End */
+  /* End */
 
+  /* project */
 
-    /* skills */
-    .skills {
-        margin-top: 60px;
-    }
+  .project {
+    margin-top: 0;
+    padding: 100px 0;
+  }
 
-    .skills .content {
-        margin-top: 50px;
-    }
+  .project .content {
+    padding: 0 30px;
+    margin-top: 50px;
+  }
 
-    /* End */
+  .project img {
+    display: flex;
+    margin: 0 auto;
+  }
 
-    /* project */
+  .project h5 {
+    margin-top: 50px;
+  }
 
-    .project {
-        margin-top: 0;
-        padding: 100px 0;
-    }
+  /* End */
 
-    .project .content {
-        padding: 0 30px;
-        margin-top: 50px;
-    }
+  /* Achievement */
+  .achievement {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px 0;
+  }
 
-    .project img {
-        display: flex;
-        margin: 0 auto;
-    }
+  .achievement .content {
+    padding: 0 30px;
+    margin-top: 50px;
+  }
 
-    .project h5 {
-        margin-top: 50px;
-    }
+  .achievement img {
+    display: flex;
+    margin: 0 auto;
+  }
 
-    /* End */
+  .achievement h5 {
+    margin-top: 50px;
+  }
 
-    /* Achievement */
-    .achievement {
-        margin-top: 50px;
-        margin-bottom: 50px;
-        padding: 100px 0;
-    }
+  /* Footer */
+  footer {
+    padding: 30px 15px;
+  }
 
-    .achievement .content {
-        padding: 0 30px;
-        margin-top: 50px;
-    }
+  footer ul {
+    margin-top: 30px;
+  }
 
-    .achievement img {
-        display: flex;
-        margin: 0 auto;
-    }
-
-    .achievement h5 {
-        margin-top: 50px;
-    }
-
-
-    /* Footer */
-    footer {
-        padding: 30px 15px;
-    }
-
-    footer ul {
-        margin-top: 30px;
-    }
-
-    /* End */
-
+  /* End */
 }
